@@ -10,7 +10,7 @@ export default function CustomNavbar() {
       rounded
       className="bg-transparent rounded-none py-5 border-b border-brand-400"
     >
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/">
         <span className="self-center whitespace-nowrap text-xl font-semibold text-slate-900 ">
           MegiGyan
         </span>
