@@ -64,7 +64,7 @@ export default function Faq() {
     <Carousel>
       {quotes.map((quote, index) => {
         return (
-          <div className="flex w-full h-full p-36 justify-center">
+          <div className="flex w-full h-full lg:p-36 md:p-28 p-16 justify-center">
             <UserQuote {...quote} key={index} />;
           </div>
         );

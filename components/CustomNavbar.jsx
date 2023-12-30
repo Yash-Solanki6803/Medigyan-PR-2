@@ -24,7 +24,9 @@ export default function CustomNavbar() {
       <Navbar.Collapse>
         <Navbar.Link href="/">Home</Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
-        <Navbar.Link href="/faq">FAQs</Navbar.Link>
+        <Navbar.Link className="border-none" href="/faq">
+          FAQs
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
