@@ -14,9 +14,9 @@ export default function CustomFooter() {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright href="/" by="MediGyan" year={2023} />
             <div className="w-full mt-4 flex space-x-6 sm:mt-0 justify-center lg:justify-end ">
-              <Footer.Icon href="#" icon={CiFacebook} />
-              <Footer.Icon href="#" icon={CiInstagram} />
-              <Footer.Icon href="#" icon={CiTwitter} />
+              <Footer.Icon href="" icon={CiFacebook} />
+              <Footer.Icon href="" icon={CiInstagram} />
+              <Footer.Icon href="" icon={CiTwitter} />
             </div>
           </div>
         </div>

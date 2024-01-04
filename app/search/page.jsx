@@ -5,7 +5,7 @@ import { CiSearch } from "react-icons/ci";
 
 export default function Search() {
   return (
-    <main className="flex flex-col justify-around h-full bg-brand-100 px-36 py-20 bg-gradient-linear">
+    <main className="flex flex-col justify-around h-full bg-brand-100 lg:px-36 lg:py-20 p-10 bg-gradient-linear">
       {/* Search bar */}
       <div className="flex w-full items-center justify-center">
         <div className="w-full  [&_div]:flex  [&_div]:w-full">

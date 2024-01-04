@@ -21,12 +21,10 @@ export default function CustomNavbar() {
         </Button>
         <Navbar.Toggle />
       </div>
-      <Navbar.Collapse>
-        <Navbar.Link href="/">Home</Navbar.Link>
-        <Navbar.Link href="/about">About</Navbar.Link>
-        <Navbar.Link className="border-none" href="/faq">
-          FAQs
-        </Navbar.Link>
+      <Navbar.Collapse className="hover:bg-none">
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/reviews">Reviews</Link>
       </Navbar.Collapse>
     </Navbar>
   );

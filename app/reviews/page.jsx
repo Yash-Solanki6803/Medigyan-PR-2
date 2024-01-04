@@ -61,11 +61,14 @@ export default function Faq() {
     },
   ];
   return (
-    <Carousel>
+    <Carousel slide={false}>
       {quotes.map((quote, index) => {
         return (
-          <div className="flex w-full h-full lg:p-36 md:p-28 p-16 justify-center">
-            <UserQuote {...quote} key={index} />;
+          <div
+            key={index}
+            className="flex w-full h-full lg:p-36 md:p-16 p-10 justify-center"
+          >
+            <UserQuote {...quote} />
           </div>
         );
       })}
