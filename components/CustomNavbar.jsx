@@ -12,7 +12,7 @@ export default function CustomNavbar() {
     >
       <Navbar.Brand href="/">
         <span className="self-center whitespace-nowrap text-xl font-semibold text-slate-900 ">
-          MegiGyan
+          MediGyaan
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
