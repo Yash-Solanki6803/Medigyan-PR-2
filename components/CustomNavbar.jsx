@@ -5,11 +5,7 @@ import Link from "next/link";
 
 export default function CustomNavbar() {
   return (
-    <Navbar
-      fluid
-      rounded
-      className="bg-transparent rounded-none py-5 border-b border-brand-400"
-    >
+    <Navbar fluid rounded className="bg-transparent rounded-none py-5 ">
       <Navbar.Brand href="/">
         <span className="self-center whitespace-nowrap text-xl font-semibold text-slate-900 ">
           MediGyaan
