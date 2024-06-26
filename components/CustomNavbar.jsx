@@ -21,6 +21,7 @@ export default function CustomNavbar() {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/reviews">Reviews</Link>
+        <Link href="http://localhost:8501">Chat</Link>
       </Navbar.Collapse>
     </Navbar>
   );

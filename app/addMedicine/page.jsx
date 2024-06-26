@@ -10,6 +10,9 @@ function page() {
   const [age, setAge] = useState(0);
   const [country, setCountry] = useState("");
   const [type, setType] = useState("");
+  const [desc, setDesc] = useState("");
+  const [adv, setAdv] = useState("");
+  const [disAdv, setDisAdv] = useState("");
   const router = useRouter();
 
   const handleClick = async () => {
@@ -22,6 +25,9 @@ function page() {
         min_age: age,
         country,
         medicine_type: type,
+        medicine_desc: desc,
+        medicine_adv: adv,
+        medicine_disadv: disAdv,
       }),
     });
     const data = await res.json();
@@ -30,7 +36,7 @@ function page() {
   };
 
   return (
-    <div className="h-screen border px-10 border-black flex flex-col items-start gap-4">
+    <div className="h-screen border px-10 border-black flex flex-col gap-4">
       <h1 className="text-7xl font-bold mt-10 text-brand-500 font-serif">
         Add Medicine
       </h1>
@@ -68,6 +74,27 @@ function page() {
         type="text"
         onChange={(e) => setType(e.target.value)}
         placeholder="Type"
+      />
+      <input
+        className="py-4 border-none rounded-lg text-lg"
+        value={desc}
+        type="text"
+        onChange={(e) => setDesc(e.target.value)}
+        placeholder="Description"
+      />
+      <input
+        className="py-4 border-none rounded-lg text-lg"
+        value={adv}
+        type="text"
+        onChange={(e) => setAdv(e.target.value)}
+        placeholder="Advantage"
+      />
+      <input
+        className="py-4 border-none rounded-lg text-lg"
+        value={disAdv}
+        type="text"
+        onChange={(e) => setDisAdv(e.target.value)}
+        placeholder="Disadvantages"
       />
       <button
         className="bg-brand-600 text-white px-6 py-4 rounded-lg border border-transparent hover:border-brand-600 hover:bg-transparent hover:text-brand-600 transition-all duration-300 ease-in-out"

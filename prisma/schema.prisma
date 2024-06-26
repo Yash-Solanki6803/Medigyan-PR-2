@@ -21,5 +21,8 @@ model Medicine {
   min_age       String
   country       String
   medicine_type String
+  medicine_desc String
+  medicine_adv String
+  medicine_disadv String
 }
 

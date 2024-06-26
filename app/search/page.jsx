@@ -86,6 +86,15 @@ export default function Search() {
               <p className="text-lg ">
                 Medicine Type : {medicine.medicine_type}
               </p>
+              <p className="text-lg ">
+                Medicine Description : {medicine.medicine_desc}
+              </p>
+              <p className="text-lg ">
+                Medicine Advantages : {medicine.medicine_adv}
+              </p>
+              <p className="text-lg ">
+                Medicine Disadvantages : {medicine.medicine_disadv}
+              </p>
             </div>
           </div>
         )}
